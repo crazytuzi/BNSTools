@@ -1,0 +1,17 @@
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\bin\Release\item.txt
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\bin\Release\GM工具集.exe.config
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\bin\Release\GM工具集.exe
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\bin\Release\GM工具集.pdb
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.csprojAssemblyReference.cache
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.BNS_Main.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.ChangedCount.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.Del_data_id.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.ErrorMsg.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.Form1.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.Form2.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.LoadingForm.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.Properties.Resources.resources
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.csproj.GenerateResource.cache
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\BNS_Tools_ALL.csproj.CoreCompileInputs.cache
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\GM工具集.exe
+C:\Users\Curtain\Desktop\BNS工具集\BNS_Tools_ALL\obj\Release\GM工具集.pdb

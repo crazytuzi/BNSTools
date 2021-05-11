@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\23983\Desktop\Files</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="activity/Achievement.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="activity/CheckRun.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/24/2020 10:06:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/14/2020 09:34:58</publishTime>
+    </File>
+    <File Include="bin/notify_API.dll">
+      <publishTime>09/21/2020 17:21:05</publishTime>
+    </File>
+    <File Include="bin/notify_API.pdb">
+      <publishTime>09/21/2020 17:21:05</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/24/2020 10:06:13</publishTime>
+    </File>
+    <File Include="bin/SqlSugar.dll">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>09/14/2020 09:34:57</publishTime>
+    </File>
+    <File Include="bin/System.Web.Cors.dll">
+      <publishTime>09/14/2020 09:34:59</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Cors.dll">
+      <publishTime>09/14/2020 09:35:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>09/14/2020 09:34:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Net.Http.Formatting.resources.dll">
+      <publishTime>09/14/2020 09:34:57</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.resources.dll">
+      <publishTime>09/14/2020 09:34:58</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/System.Web.Http.WebHost.resources.dll">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="debug.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="Debug_Data.aspx">
+      <publishTime>09/16/2020 11:20:31</publishTime>
+    </File>
+    <File Include="getItem/GetDrawMsg.aspx">
+      <publishTime>09/15/2020 12:20:14</publishTime>
+    </File>
+    <File Include="getItem/GetGralALL.aspx">
+      <publishTime>09/15/2020 12:12:12</publishTime>
+    </File>
+    <File Include="getItem/GetRecord.aspx">
+      <publishTime>09/15/2020 12:35:42</publishTime>
+    </File>
+    <File Include="getItem/GetUserMsg.aspx">
+      <publishTime>09/15/2020 16:51:29</publishTime>
+    </File>
+    <File Include="getItem/Gral.aspx">
+      <publishTime>09/15/2020 13:36:01</publishTime>
+    </File>
+    <File Include="getItem/notify_item_data.aspx">
+      <publishTime>09/15/2020 17:04:54</publishTime>
+    </File>
+    <File Include="getItem/RandomItem.aspx">
+      <publishTime>09/15/2020 17:10:20</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="Insertdq.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="notify_url_data.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="PasswordChanged.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="PasswordRest.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="Paycode_url.aspx">
+      <publishTime>09/16/2020 10:22:48</publishTime>
+    </File>
+    <File Include="Ping.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="SendItem.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="User/Login.aspx">
+      <publishTime>09/14/2020 09:35:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/21/2020 16:39:37</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,201 @@
+﻿body {
+    background: #000000;
+    background: url(../img/Drawbak.jpg) no-repeat;
+    background-repeat: no-repeat;
+    
+    font-family: "黑体";
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.font {
+    font-size: 15px;
+    font-family: "黑体";
+    color: #fff;
+    width:400px;
+}
+
+.Logindiv {
+    margin-left: 215px;
+    margin-top: 245px;
+}
+
+.Drawtimer {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "黑体";
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "黑体";
+    color: #fff;
+    width: 153px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.fdtxt {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "黑体";
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 190px;
+    height: 60px;
+}
+
+.wb1 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "黑体";
+    color: #fff;
+    margin-left: 452px;
+    margin-top: -100px;
+    width: 320px;
+    height: 230px;
+}
+
+.wb2 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "黑体";
+    color: #fff;
+    margin-left: 215px;
+    margin-top: 70px;
+    width: 550px;
+    height: 240px;
+}
+
+.debugcss {
+    border: 1px solid red;
+}
+
+.ye {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "黑体";
+    color: #fff;
+    margin-left: 1450px;
+    margin-top: -875px;
+    width: 60px;
+    height: 20px;
+}
+
+.yebtn {
+    font-size: 15px;
+    font-family: "黑体";
+    color: #FFB800;
+    margin-left: 1530px;
+    margin-top: -20px;
+    width: 35px;
+    height: 20px;
+}
+
+.hqjl {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1660px;
+    margin-top: -20px;
+    width: 80px;
+    height: 20px;
+}
+
+.lclab {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1430px;
+    margin-top: 615px;
+    width: 80px;
+    height: 20px;
+}
+
+.lcbtn {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1275px;
+    margin-top: 5px;
+    width: 220px;
+    height: 55px;
+}
+
+.dclab {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1430px;
+    margin-top: 25px;
+    width: 80px;
+    height: 20px;
+}
+
+.dcbtn {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1275px;
+    margin-top: 4px;
+    width: 220px;
+    height: 55px;
+}
+
+.lclab2 {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1700px;
+    margin-top: -182px;
+    width: 80px;
+    height: 20px;
+}
+
+.lcbtn2 {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1550px;
+    margin-top: 5px;
+    width: 220px;
+    height: 55px;
+}
+
+.dclab2 {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1700px;
+    margin-top: 20px;
+    width: 80px;
+    height: 20px;
+}
+
+.dcbtn2 {
+    font-size: 16px;
+    font-family: "黑体";
+    margin-left: 1550px;
+    margin-top: 5px;
+    width: 220px;
+    height: 55px;
+}
+
+.myjf {
+    font-size: 15px;
+    font-family: "黑体";
+    margin-left: 1620px;
+    margin-top: 52px;
+    width: 120px;
+    height: 20px;
+}
+
+
+.tc {
+    margin-top: 50px;
+}

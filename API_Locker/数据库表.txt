@@ -1,0 +1,121 @@
+USE [APP.Baby_Name]
+GO
+
+/****** Object:  Table [dbo].[UserTimer]    Script Date: 07/03/2020 14:16:14 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[UserTimer](
+	[UserMac] [varchar](50) NOT NULL,
+	[UserName] [varchar](50) NOT NULL,
+	[UserDueTimer] [datetime] NOT NULL,
+ CONSTRAINT [PK_UserTimer] PRIMARY KEY CLUSTERED 
+(
+	[UserMac] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+/****** Object:  Table [dbo].[Us_Msg]    Script Date: 07/03/2020 14:16:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Us_Msg](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Mac] [nvarchar](50) NULL,
+	[isBan] [bit] NULL,
+	[u_type] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Us_Msg] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+/****** Object:  Table [dbo].[Us_Help]    Script Date: 07/03/2020 14:16:42 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Us_Help](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[U_Mac] [nvarchar](50) NOT NULL,
+	[U_TXT] [nvarchar](200) NOT NULL,
+	[Server_IP] [nvarchar](50) NOT NULL,
+	[Server_Acction] [nvarchar](50) NOT NULL,
+	[Server_Password] [nvarchar](50) NOT NULL,
+	[U_TEL] [nvarchar](50) NOT NULL,
+ CONSTRAINT [PK_Us_Help_1] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+/****** Object:  Table [dbo].[ToolsMsg]    Script Date: 07/03/2020 14:16:52 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[ToolsMsg](
+	[Title] [nvarchar](50) NULL,
+	[BoxMsg] [nvarchar](500) NULL,
+	[isShow] [bit] NULL,
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+ CONSTRAINT [PK_ToolsMsg] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+/****** Object:  Table [dbo].[Login_Msg]    Script Date: 07/03/2020 14:17:38 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Login_Msg](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Mac] [nvarchar](50) NOT NULL,
+	[Timer] [datetime] NOT NULL,
+ CONSTRAINT [PK_Login_Msg] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
+
+
+
+
+https://localhost:44357/api/GetUser?Mac=1CB72C9CA7CE
+
+
+

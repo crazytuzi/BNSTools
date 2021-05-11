@@ -1,0 +1,327 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49462A7C-63A6-4F43-8AD8-BC6D3D1C27F9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>notify_API</RootNamespace>
+    <AssemblyName>notify_API</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44396</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SqlSugar, Version=5.0.0.15, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\sqlSugar.5.0.0.15\lib\SqlSugar.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.Cors, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.7\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http.Cors, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.7\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.7\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="activity\Achievement.aspx" />
+    <Content Include="activity\CheckRun.aspx" />
+    <Content Include="debug.aspx" />
+    <Content Include="Debug_Data.aspx" />
+    <Content Include="getItem\GetDrawMsg.aspx" />
+    <Content Include="getItem\GetGralALL.aspx" />
+    <Content Include="getItem\GetRecord.aspx" />
+    <Content Include="getItem\GetUserMsg.aspx" />
+    <Content Include="getItem\Gral.aspx" />
+    <Content Include="getItem\notify_item_data.aspx" />
+    <Content Include="getItem\RandomItem.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Insertdq.aspx" />
+    <Content Include="notify_url_data.aspx" />
+    <Content Include="PasswordChanged.aspx" />
+    <Content Include="PasswordRest.aspx" />
+    <Content Include="Paycode_url.aspx" />
+    <Content Include="Ping.aspx" />
+    <Content Include="RunLock\Control.aspx" />
+    <Content Include="SendItem.aspx" />
+    <Content Include="User\Login.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="activity\Achievement.aspx.cs">
+      <DependentUpon>Achievement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="activity\Achievement.aspx.designer.cs">
+      <DependentUpon>Achievement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="activity\CheckRun.aspx.cs">
+      <DependentUpon>CheckRun.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="activity\CheckRun.aspx.designer.cs">
+      <DependentUpon>CheckRun.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="debug.aspx.cs">
+      <DependentUpon>debug.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="debug.aspx.designer.cs">
+      <DependentUpon>debug.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Debug_Data.aspx.cs">
+      <DependentUpon>Debug_Data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Debug_Data.aspx.designer.cs">
+      <DependentUpon>Debug_Data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\GetDrawMsg.aspx.cs">
+      <DependentUpon>GetDrawMsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\GetDrawMsg.aspx.designer.cs">
+      <DependentUpon>GetDrawMsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\GetGralALL.aspx.cs">
+      <DependentUpon>GetGralALL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\GetGralALL.aspx.designer.cs">
+      <DependentUpon>GetGralALL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\GetRecord.aspx.cs">
+      <DependentUpon>GetRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\GetRecord.aspx.designer.cs">
+      <DependentUpon>GetRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\GetUserMsg.aspx.cs">
+      <DependentUpon>GetUserMsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\GetUserMsg.aspx.designer.cs">
+      <DependentUpon>GetUserMsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\Gral.aspx.cs">
+      <DependentUpon>Gral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\Gral.aspx.designer.cs">
+      <DependentUpon>Gral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\notify_item_data.aspx.cs">
+      <DependentUpon>notify_item_data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\notify_item_data.aspx.designer.cs">
+      <DependentUpon>notify_item_data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getItem\RandomItem.aspx.cs">
+      <DependentUpon>RandomItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getItem\RandomItem.aspx.designer.cs">
+      <DependentUpon>RandomItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Insertdq.aspx.cs">
+      <DependentUpon>Insertdq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insertdq.aspx.designer.cs">
+      <DependentUpon>Insertdq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Achiactivity.cs" />
+    <Compile Include="Models\AchiDB.cs" />
+    <Compile Include="Models\ChrProject.cs" />
+    <Compile Include="Models\Data_Code.cs" />
+    <Compile Include="Models\DataItems_Entity.cs" />
+    <Compile Include="Models\DBHelper.cs" />
+    <Compile Include="Models\DBsql.cs" />
+    <Compile Include="Models\DrawBalance.cs" />
+    <Compile Include="Models\Draw_Data_Entity.cs" />
+    <Compile Include="Models\Draw_Entity.cs" />
+    <Compile Include="Models\GetGral.cs" />
+    <Compile Include="Models\GetItemRecord_Entity.cs" />
+    <Compile Include="Models\GetItem_Entity.cs" />
+    <Compile Include="Models\GralCount.cs" />
+    <Compile Include="Models\isRun.cs" />
+    <Compile Include="Models\notify_data.cs" />
+    <Compile Include="Models\Pay_Diamonds.cs" />
+    <Compile Include="Models\Record.cs" />
+    <Compile Include="Models\SuccessPay.cs" />
+    <Compile Include="Models\ToJsons.cs" />
+    <Compile Include="Models\Tools.cs" />
+    <Compile Include="Models\UserProjcet.cs" />
+    <Compile Include="notify_url_data.aspx.cs">
+      <DependentUpon>notify_url_data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notify_url_data.aspx.designer.cs">
+      <DependentUpon>notify_url_data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChanged.aspx.cs">
+      <DependentUpon>PasswordChanged.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordChanged.aspx.designer.cs">
+      <DependentUpon>PasswordChanged.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordRest.aspx.cs">
+      <DependentUpon>PasswordRest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordRest.aspx.designer.cs">
+      <DependentUpon>PasswordRest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paycode_url.aspx.cs">
+      <DependentUpon>Paycode_url.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paycode_url.aspx.designer.cs">
+      <DependentUpon>Paycode_url.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ping.aspx.cs">
+      <DependentUpon>Ping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ping.aspx.designer.cs">
+      <DependentUpon>Ping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RunLock\Control.aspx.cs">
+      <DependentUpon>Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RunLock\Control.aspx.designer.cs">
+      <DependentUpon>Control.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendItem.aspx.cs">
+      <DependentUpon>SendItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendItem.aspx.designer.cs">
+      <DependentUpon>SendItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62922</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44396/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

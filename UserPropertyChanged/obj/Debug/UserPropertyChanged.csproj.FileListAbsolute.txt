@@ -1,0 +1,10 @@
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\bin\Debug\UserPropertyChanged.exe.config
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\bin\Debug\UserPropertyChanged.exe
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\bin\Debug\UserPropertyChanged.pdb
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.csprojAssemblyReference.cache
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.Form1.resources
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.Properties.Resources.resources
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.csproj.GenerateResource.cache
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.csproj.CoreCompileInputs.cache
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.exe
+E:\开发\tps\(BNS)修改最新的物品栏\UserPropertyChanged\obj\Debug\UserPropertyChanged.pdb

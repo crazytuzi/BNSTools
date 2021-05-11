@@ -1,0 +1,10 @@
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\bin\Debug\BNS_Store_Tools.exe.config
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\bin\Debug\BNS_Store_Tools.exe
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\bin\Debug\BNS_Store_Tools.pdb
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.Form1.resources
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.Properties.Resources.resources
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.csproj.GenerateResource.cache
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.csproj.CoreCompileInputs.cache
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.exe
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.pdb
+C:\Users\Curtain\Desktop\(BNS)修改最新的物品栏\BNS_Store_Tools\obj\Debug\BNS_Store_Tools.csprojAssemblyReference.cache
